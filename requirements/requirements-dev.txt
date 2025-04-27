@@ -1,1 +1,2 @@
 black
+django-debug-toolbar

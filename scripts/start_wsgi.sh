@@ -20,4 +20,4 @@ uwsgi --master \
  --http-socket 0.0.0.0:8000 \
  --module project.wsgi \
  --logformat "INFO %(ctime) %(status) %(method) %(msecs)ms %(addr) %(uri)" \
- --static-map /static=./var/data/static
+ --static-map /static=./assets/static

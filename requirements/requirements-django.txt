@@ -1,9 +1,8 @@
-uWSGI
-Django
+uWSGI==2.0.28
+Django~=4.2.0
 django-compressor
 django-versatileimagefield
 crispy-bootstrap5
-django-debug-toolbar
 djangorestframework
 markdown
 django-filter

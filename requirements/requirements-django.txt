@@ -1,0 +1,9 @@
+uWSGI
+Django
+django-compressor
+django-versatileimagefield
+crispy-bootstrap5
+django-debug-toolbar
+djangorestframework
+markdown
+django-filter

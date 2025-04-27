@@ -1,0 +1,63 @@
+{% extends "base.html" %}
+{% load static %}
+{% block content %}
+<div class="container">
+    <div class="row my-2">
+        <div class="col-md">
+            <div class="border rounded-1 px-2 mb-2" style="height: 420px;">Original Image</div>
+            <div class="border rounded-1 px-2 mb-2">
+                <div class="col">
+                    <label for="customRange1" class="form-label">Example range</label>
+                    <input type="range" class="form-range" id="customRange1">
+                </div>
+                <div class="col">
+                    <label for="customRange1" class="form-label">Example range</label>
+                    <input type="range" class="form-range" id="customRange1">
+                </div>
+                <div class="col">
+                    <label for="customRange1" class="form-label">Example range</label>
+                    <input type="range" class="form-range" id="customRange1">
+                </div>
+            </div>
+            <!-- Nav tabs -->
+            <ul class="nav nav-tabs">
+                <li class="nav-item">
+                    <a class="nav-link active" data-bs-toggle="tab" href="#primary">Primary</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-bs-toggle="tab" href="#advance">Advance</a>
+                </li>
+            </ul>
+            
+            <!-- Tab panes -->
+            <div class="tab-content">
+                <div class="tab-pane container border border-top-0 rounded-bottom py-2 active" id="primary">
+                    <div class="border rounded-1 px-2">Radio Options</div>
+                    <div class="border rounded-1 px-2">Size Options</div>
+                </div>
+                <div class="tab-pane container fade border border-top-0 rounded-bottom py-2" id="advance">
+                    <label for="customRange1" class="form-label">Primary Prams</label>
+                    <input type="range" class="form-range" id="customRange1">
+                </div>
+            </div>
+        </div>
+        <div class="col-md">
+            <div class="border rounded-1 px-2" style="height: 420px;">
+                <i class="bi-alarm" style="font-size: 2rem; color: cornflowerblue;"></i>Generated Image
+            </div>
+            <div class="alert alert-success" role="alert">
+                A simple success alert—check it out!
+            </div>
+            <div class="alert alert-danger" role="alert">
+                A simple danger alert—check it out!
+            </div>
+            <div class="alert alert-warning" role="alert">
+                A simple warning alert—check it out!
+            </div>
+        </div>
+    </div>
+    <div class="row px-2">
+        <button type="button" class="btn btn-primary btn-block">Submit</button>
+    </div>
+</div>
+{% endblock %}

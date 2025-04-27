@@ -25,6 +25,14 @@ test/temp/*
 
 .python-version
 
+# Django
+var
+venv
+# project
+# home
+# requirements
+# manage.py
+
 # Ignore .png and .jpg files in the root directory
 /*.png
 /*.jpg

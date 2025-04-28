@@ -28,10 +28,11 @@ test/temp/*
 # Django
 var
 venv
-# project
-# home
-# requirements
-# manage.py
+
+# dreamhost
+.htaccess
+uwsgi.fcgi
+uwsgi.ini
 
 # Ignore .png and .jpg files in the root directory
 /*.png

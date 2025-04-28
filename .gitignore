@@ -28,6 +28,9 @@ test/temp/*
 # Django
 var
 venv
+.venv
+env
+.env
 
 # dreamhost
 .htaccess
